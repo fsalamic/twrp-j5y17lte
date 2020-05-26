@@ -1,7 +1,7 @@
 ## TWRP device tree for Samsung Galaxy J5 2017 (J5Y17LTE)
 
  Copyright (C) 2019 Ananjaser1211 Open-source
-
+ Copyright (C) 2020 bluedogerino  Open-source
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
  You may obtain a copy of the License at
@@ -20,7 +20,7 @@ Add to `.repo/local_manifests/j5y17lte.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="ananjaser1211/android_device_samsung_jxy17lte" path="device/samsung/j5y17lte" remote="github" revision="j5y17lte" />
+  <project name="bluedogerino/twrp-j5y17lte" path="device/samsung/j5y17lte" remote="github" revision="twrp-9.0" />
 </manifest>
 ```
 
@@ -34,4 +34,4 @@ lunch omni_j5y17lte-eng
 make -j64 recoveryimage
 ```
 
-Kernel sources are available at: https://github.com/ananjaser1211/Helios_7870
+Kernel sources are available at: https://github.com/Doge-Jxy17lte/kernel-exynos7870
