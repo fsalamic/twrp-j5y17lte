@@ -34,4 +34,4 @@ lunch omni_j5y17lte-eng
 make -j64 recoveryimage
 ```
 
-Kernel sources are available at: https://github.com/Doge-Jxy17lte/kernel-exynos7870
+Kernel sources are available at: https://github.com/fsalamic/doge-kernel
